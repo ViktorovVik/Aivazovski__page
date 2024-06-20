@@ -8,6 +8,21 @@ body {
    background-color: var(--bg-main);
 }
 
+.container {
+   max-width: 990px;
+   width: 100%;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+.divider {
+   width: min(420px, 100%);
+   height: 1px;
+   background-color: var(--color-main-black);
+   border: none;
+   margin: 0 auto;
+}
+
 ul {
    list-style: none;
    padding: 0;
@@ -19,12 +34,6 @@ a {
    color: unset;
 }
 
-.container {
-   max-width: 990px;
-   width: 100%;
-   padding: 0 20px;
-   margin: 0 auto;
-}
 
 h1,
 h2,
