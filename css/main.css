@@ -1,4 +1,4 @@
-@import "basic.css";
-@import "vars.css";
-@import "_header.css";
-@import "_home.css";
+@import url('basic.css');
+@import url('vars.css');
+@import url('header.css');
+@import url('home.css');
