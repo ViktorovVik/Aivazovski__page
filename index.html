@@ -24,6 +24,28 @@
          </nav>
       </div>
    </header>
+   <div class="mobile-navigation" aria-label="mobile-navigation">
+      <label for="toggler-id" aria-label="open-close mobile-navigation-menu">
+         <svg class="mobile-navigation__burger" aria-label="burger icon">
+            <use href="image/icons/sprites.svg#burger-icon"></use>
+         </svg>
+      </label>
+      <input type="checkbox" id="toggler-id" class="mobile-navigation__toggler">
+      <nav class="mobile-navigation-menu" aria-label="Mobile navigation">
+         <ul class="mobile-navigation-list" aria-label="Mobile navigation list">
+            <li class="mobile-navigation-item"><a href="#home-id" class="mobile-navigation-link" aria-label="Link to Home">Home</a></li>
+            <li class="mobile-navigation-item"><a href="#about-id" class="mobile-navigation-link" aria-label="Link to About">About</a></li>
+            <li class="mobile-navigation-item"><a href="#history-id" class="mobile-navigation-link" aria-label="Link to History">History</a></li>
+            <li class="mobile-navigation-item"><a href="#portfolio-id" class="mobile-navigation-link" aria-label="Link to Portfolio">Portfolio</a></li>
+            <li class="mobile-navigation-item"><a href="#contacts-id" class="mobile-navigation-link" aria-label="Link to Contacts">Contacts</a></li>
+         </ul>
+         <label for="toggler-id" class="mobile-navigation-close" aria-label="open-close mobile-navigation-menu">
+            <svg class="mobile-navigation__cross" aria-label="cross icon">
+               <use href="image/icons/sprites.svg#cross-icon"></use>
+            </svg>
+         </label>
+      </nav>
+   </div>
    <main class="main" aria-label="main">
       <section class="home" id="home-id" aria-label="home section">
          <div class="container">
@@ -68,9 +90,7 @@
    <footer class="contacts" aria-label="contacts section" id="contacts-id">
       <div class="container">
          <h2 class="contacts__title">Contacts</h2>
-         <button class="contacts__btn">
             <a target="_blank" href="https://ayvazovskiy.su" class="btn__link">ayvazovskiy.su</a>
-         </button>
             <address class="socials" aria-label="social icons">
                <a target="_blank" href="https://youtube.com" aria-label="link to youtube">
                   <svg class="social__icon" aria-label="Go to youtube">
